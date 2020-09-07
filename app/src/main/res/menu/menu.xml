@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itmflashoff"
+        android:icon="@drawable/ic_flash_off"
+        android:title="flash off"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1">
+
+    </item>
+    <item
+        android:id="@+id/itmflashon"
+        android:icon="@drawable/ic_flash_on"
+        android:title="flash On"
+        android:visible="false"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="2">
+
+    </item>
+
+    <item
+        android:id="@+id/itmRefresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:orderInCategory="3">
+
+    </item>
+
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:orderInCategory="4">
+
+    </item>
+<!--    <item-->
+<!--        android:id="@+id/itmspeak"-->
+<!--        android:icon="@drawable/ic_speaker"-->
+<!--        android:title=""-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        android:orderInCategory="4">-->
+
+<!--    </item>-->
+</menu>

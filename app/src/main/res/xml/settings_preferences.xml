@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Voice">
+        <ListPreference
+            android:icon="@drawable/ic_speaker"
+            app:defaultValue="voice"
+            app:entries="@array/voice_entries"
+            app:entryValues="@array/voice_values"
+            app:key="voice"
+            app:title="Select Voice"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:icon="@drawable/ic_volume"
+            android:max="10"
+            app:defaultValue="1"
+            app:key="key_speed"
+            app:min="-10"
+            app:showSeekBarValue="true"
+            app:title="Voice Speed" />
+
+        <SeekBarPreference
+            android:icon="@drawable/ic_pitch"
+            android:max="10"
+            app:defaultValue="1"
+            app:key="key_pitch"
+            app:min="-10"
+            app:showSeekBarValue="true"
+            app:title="Pitch Speed" />
+
+    </PreferenceCategory>
+
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:key="sync"-->
+    <!--            app:title="@string/sync_title" />-->
+
+    <!--        <SwitchPreferenceCompat-->
+    <!--            app:dependency="sync"-->
+    <!--            app:key="attachment"-->
+    <!--            app:summaryOff="@string/attachment_summary_off"-->
+    <!--            app:summaryOn="@string/attachment_summary_on"-->
+    <!--            app:title="@string/attachment_title" />-->
+
+</PreferenceScreen>

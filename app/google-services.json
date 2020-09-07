@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211114314864",
+    "firebase_url": "https://machine-learning-4d036.firebaseio.com",
+    "project_id": "machine-learning-4d036",
+    "storage_bucket": "machine-learning-4d036.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211114314864:android:06499ba97eb3bbd6e1f8b5",
+        "android_client_info": {
+          "package_name": "com.ml.textrecognizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211114314864-p2m3g01c8f1em2up9k84rba6vur3duoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo1jxCuRssPefr0gPXggCFj9sFzu5TlHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211114314864-p2m3g01c8f1em2up9k84rba6vur3duoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

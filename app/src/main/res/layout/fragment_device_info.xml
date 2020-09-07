@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:strokeColor="#bbdd00"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvmodel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/model"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvhardware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hardware"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/board"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvdisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/display"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/OS"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvbrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/brand"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
